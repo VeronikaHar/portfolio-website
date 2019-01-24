@@ -98,12 +98,14 @@ div {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: var(--gap);
+  grid-gap: 12px;
 }
 
 .grid__item {
   background-color: var(--white);
   padding: var(--gap);
+  border-radius: 5px;
+  box-shadow: 4px 3px 15px 0px rgba(0,0,0,0.3);
 }
 
 .grid__item:last-child {

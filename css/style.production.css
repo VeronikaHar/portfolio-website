@@ -135,12 +135,15 @@ div {
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 12px;
 }
 
 .grid__item {
   background-color: #fff;
   padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 3px 15px 0px rgba(0,0,0,0.3);
+          box-shadow: 4px 3px 15px 0px rgba(0,0,0,0.3);
 }
 
 .grid__item:last-child {
