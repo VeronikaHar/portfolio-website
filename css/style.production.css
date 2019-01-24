@@ -133,7 +133,7 @@ div {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  -ms-grid-columns: 1fr 12px 1fr 12px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
 }
@@ -152,6 +152,7 @@ div {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
+  border: 3px solid #58cccc;
 }
 
 /* Grid fallback*/
@@ -433,9 +434,8 @@ svg {
 }
 
 textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 90%;
-  height: 150px;
-}
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 90%;
+    height: 150px;
+    }
