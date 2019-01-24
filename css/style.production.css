@@ -38,6 +38,10 @@ a:active {
   text-shadow: none;
 }
 
+.bio-facts {
+  list-style-type: circle;
+}
+
 body {
   background-color: #f6f8f8;
   font-family: 'Assistant', sans-serif;
@@ -393,27 +397,6 @@ span {
   color: #fff;
 }
 
-.w1 {
-  -webkit-animation: letter-grow 1s 5s 2;
-          animation: letter-grow 1s 5s 2;
-
-}
-
-.w2 {
-  -webkit-animation: letter-grow 2s 5s 2;
-          animation: letter-grow 2s 5s 2;
-}
-
-.w3 {
-  -webkit-animation: letter-grow 3s 5s 2;
-          animation: letter-grow 3s 5s 2;
-}
-
-.dot {
-  -webkit-animation: letter-grow 4s 5s 2;
-          animation: letter-grow 4s 5s 2;
-}
-
 .SM_icon {
   max-height: 40px;
   max-width: 7%;
@@ -438,4 +421,36 @@ textarea {
             box-sizing: border-box;
     width: 90%;
     height: 150px;
-    }
+}
+
+table {
+
+  margin-left:auto;
+  margin-right:auto;
+  width: 400px;
+}
+
+th {
+  border-bottom: 1px solid #35acac;
+
+}
+
+.w1 {
+  -webkit-animation: letter-grow 1s 5s 2;
+          animation: letter-grow 1s 5s 2;
+}
+
+.w2 {
+  -webkit-animation: letter-grow 2s 5s 2;
+          animation: letter-grow 2s 5s 2;
+}
+
+.w3 {
+  -webkit-animation: letter-grow 3s 5s 2;
+          animation: letter-grow 3s 5s 2;
+}
+
+.dot {
+  -webkit-animation: letter-grow 4s 5s 2;
+          animation: letter-grow 4s 5s 2;
+}
