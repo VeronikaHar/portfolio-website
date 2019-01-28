@@ -275,11 +275,6 @@ h3 {
             align-items: center;
   }
 
-  .profile__footer {
-    margin-bottom: 50px;
-  }
-
-
   img.page-header__item {
     position: relative;
   }
@@ -367,6 +362,7 @@ img.page-header__item {
   clear: both;
   text-align: center;
   image-orientation: center;
+  margin-bottom: 50px;
 }
 
 #Capa_1 {
