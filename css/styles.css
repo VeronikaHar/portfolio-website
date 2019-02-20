@@ -18,6 +18,7 @@ Secondary Color : #b3f4f4 (lighter); #58cccc (darker)
   --font-size-basic: 18px;
   --font-size-h: 24px;
   --text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  --heading-font: 'Space Mono', monospace;
 }
 
 * {
@@ -119,19 +120,19 @@ div {
 }
 
 h1 {
-  font-family: 'Space Mono', monospace;
+  font-family: var(--heading-font);
   font-size: 30px;
   font-weight: var(--font-weight);
 }
 
 h2 {
-  font-family: 'Space Mono', monospace;
+  font-family: var(--heading-font);
   font-size: var(--font-size-h);
   font-weight: var(--font-weight);
 }
 
 h3 {
-  font-family: 'Space Mono', monospace;
+  font-family: var(--heading-font);
   font-size: var(--font-size-basic);
   font-weight: var(--font-weight);
 }
