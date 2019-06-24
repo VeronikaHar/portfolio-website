@@ -65,8 +65,7 @@ button,
   color: var(--white);
   text-decoration: none;
   padding: var(--gap);
-  border-radius: 5px;
-  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
   transition-duration: 0.3s opacity;
 }
 
@@ -75,8 +74,9 @@ button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   color: var(--white);
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:active,
@@ -101,7 +101,7 @@ div {
 .grid__item {
   background-color: var(--white);
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -120,7 +120,7 @@ div {
 
 .grid__item footer {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-bottom: 25px;
 }
 
@@ -245,7 +245,7 @@ img.page-header__item {
   clear: both;
   text-align: center;
   image-orientation: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #Capa_1 {

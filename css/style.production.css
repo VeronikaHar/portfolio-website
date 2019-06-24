@@ -54,9 +54,7 @@ button {
   color: #fff;
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
   -webkit-transition-duration: 0.3s opacity;
   -o-transition-duration: 0.3s opacity;
   transition-duration: 0.3s opacity;
@@ -72,9 +70,7 @@ button {
   color: #fff;
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
   -webkit-transition-duration: 0.3s opacity;
   -o-transition-duration: 0.3s opacity;
   transition-duration: 0.3s opacity;
@@ -82,26 +78,34 @@ button {
 
 button:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   color: #fff;
+  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:focus {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   color: #fff;
+  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 .button:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   color: #fff;
+  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 .button:focus {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   color: #fff;
+  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:active,
@@ -129,7 +133,7 @@ div {
 .grid__item {
   background-color: #fff;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 3px;
   -webkit-box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.3);
 }
@@ -149,7 +153,7 @@ div {
 
 .grid__item footer {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-bottom: 25px;
 }
 
@@ -312,7 +316,7 @@ img.page-header__item {
   clear: both;
   text-align: center;
   image-orientation: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #Capa_1 {
