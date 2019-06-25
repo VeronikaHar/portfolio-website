@@ -18,10 +18,12 @@ a {
 
 a:hover {
   color: #848989;
+  text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 }
 
 a:focus {
   color: #848989;
+  text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 }
 
 a:active {
@@ -76,7 +78,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #fff;
   -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
@@ -84,7 +86,7 @@ button:hover {
 
 button:focus {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #fff;
   -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
@@ -92,7 +94,7 @@ button:focus {
 
 .button:hover {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #fff;
   -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
@@ -100,7 +102,7 @@ button:focus {
 
 .button:focus {
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #fff;
   -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
