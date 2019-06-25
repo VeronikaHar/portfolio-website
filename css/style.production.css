@@ -18,12 +18,10 @@ a {
 
 a:hover {
   color: #848989;
-  text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 }
 
 a:focus {
   color: #848989;
-  text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 }
 
 a:active {
@@ -271,7 +269,6 @@ h3 {
 .navigation-list__item--active {
   color: #848989;
   font-weight: bold;
-  text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 }
 
 .page-header {
