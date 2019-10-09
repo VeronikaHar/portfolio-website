@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="img/favicon.png">
-  <title> Work Examples | My Web Projects </title>
+  <title> Portfolio | My Web Projects </title>
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
@@ -16,21 +16,12 @@
 <body>
   <header class="page-header">
     <img src="img/VH_logo.jpg" alt="logo of Veronika Harbachova" class="page-header__item">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li>
-          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-        </li>
-        <li>
-          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-        </li>
-        <li>
-          <a href="work.html" role="menuitem" class=" navigation-list__item navigation-list__item--active">Portfolio</a>
-        </li>
-        <li>
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
+    <nav role="menubar" class="page-header__item navigation-list">
+      <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+      <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">&lsaquo; Work
+        &rsaquo;</a>
+      <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+      <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
     </nav>
   </header>
   <br>
@@ -38,76 +29,88 @@
     <h1>My work</h1>
     <section class="grid">
       <section class="grid__item">
-        <h2>Meetup</h2>
-        <img src="img/meetup.png" class="grid_img">
-        <p>
-          A serverless, progressive web application (PWA) built with React using a test-driven development (TDD)
-          technique.
-          </br>
-          The application uses the Meetup API to fetch upcoming events for a selected city.
-        </p>
+        <div class="layout">
+          <h2>Meetup</h2>
+          <img src="img/meetup.png" class="grid_img">
+          <p>
+            A serverless, progressive web application (PWA) built with React using a test-driven development (TDD)
+            technique.
+            </br>
+            The application uses the Meetup API to fetch upcoming events for a selected city.
+          </p>
+        </div>
         <footer>
           <a class="button" href="https://github.com/VeronikaHar/meetup" target="_blank">Code</a>
           <a class="button" href="https://veronikahar.github.io/meetup/" target="_blank">App</a>
         </footer>
       </section>
       <section class="grid__item">
-        <h2>Cinestock</h2>
-        <img src="img/cinestock.png" class="grid_img">
-        <p>
-          A complete movie web app that allows users to create their personal profile, search and save info on movies.
-          </br>
-          Server-side created with Node.js, uses RESTful API. Client-side created using REACT and Bootstrap.
-        </p>
+        <div class="layout">
+          <h2>Cinestock</h2>
+          <img src="img/cinestock.png" class="grid_img">
+          <p>
+            A complete movie web app that allows users to create their personal profile, search and save info on movies.
+            </br>
+            Server-side created with Node.js, uses RESTful API. Client-side created using REACT and Bootstrap.
+          </p>
+        </div>
         <footer>
           <a class="button" href="https://github.com/VeronikaHar/cinestock" target="_blank">Code</a>
           <a class="button" href="https://cinestock.herokuapp.com" target="_blank">App</a>
         </footer>
       </section>
       <section class="grid__item">
-        <h2>Squizz</h2>
-        <img src="img/squizz.png" class="grid_img">
-        <p>
-          A simple Angular quizz application. Angular Material used to style.
-        </p>
+        <div class="layout">
+          <h2>Squizz</h2>
+          <img src="img/squizz.png" class="grid_img">
+          <p>
+            A simple Angular quizz application. Angular Material used to style.
+          </p>
+        </div>
         <footer>
           <a class="button" href="https://github.com/VeronikaHar/squizz" target="_blank">Code</a>
           <a class="button" href="https://veronikahar.github.io/squizz/" target="_blank">App</a>
         </footer>
       </section>
       <section class="grid__item">
-        <h2>To-do app</h2>
-        <img src="img/todo.png" class="grid_img">
-        <p>
-          A simple todo app that allows to add, edit, mark as completed and delete tasks.
-          </br> Created using Vue and Vue Material.
-        </p>
+        <div class="layout">
+          <h2>To-do app</h2>
+          <img src="img/todo.png" class="grid_img">
+          <p>
+            A simple todo app that allows to add, edit, mark as completed and delete tasks.
+            </br> Created using Vue and Vue Material.
+          </p>
+        </div>
         <footer>
           <a class="button" href="https://github.com/VeronikaHar/todo-vue" target="_blank">Code</a>
           <a class="button" href="https://veronikahar.github.io/todo-vue/" target="_blank">App</a>
         </footer>
       </section>
       <section class="grid__item">
-        <h2>Rijkmuseum web app</h2>
-        <img src="img/rijk.png" class="grid_img">
-        <p>
-          A jQuery app that allows to search through Rijkmuseum art collection and displays detailed art piece
-          description in a pop-up modal.
-          <br>
-          No framework was used.
-        </p>
+        <div class="layout">
+          <h2>Rijkmuseum web app</h2>
+          <img src="img/rijk.png" class="grid_img">
+          <p>
+            A jQuery app that allows to search through Rijkmuseum art collection and displays detailed art piece
+            description in a pop-up modal.
+            <br>
+            No framework was used.
+          </p>
+        </div>
         <footer>
           <a class="button" href="https://github.com/VeronikaHar/Rijksmuseum-jQuery-app" target="_blank">Code</a>
           <a class="button" href="https://rijksmuseum-art.netlify.com/" target="_blank">App</a>
         </footer>
       </section>
       <section class="grid__item">
-        <h2>Your project?</h2>
-        <p>
-          If you like my work, I'll be glad to help you bring to life any
-          of front/back-end ideas, as well as fullstack projects with the following
-          technologies: HTML, CSS, JavaScript. I am also happy to learn new technologies should it be needed.
-        </p>
+        <div class="layout">
+          <h2>Your project?</h2>
+          <p>Do you like what you see?</p>
+          <p> Have a project on your mind?</p>
+          <p> I'll be happy to help!</p>
+          <p>Email me at
+            <br />veronika.har@hotmail.com<br /> or simply hit the button below. </p>
+        </div>
         <footer>
           <a class="button" href="mailto:veronika.har@hotmail.com" target="_blank">Email me</a>
         </footer>
@@ -123,7 +126,6 @@
       <img src="img/github_icon.svg" class="SM_icon" alt="GitHub Icon">
     </a>
   </footer>
-  <br>
 </body>
 
 </html>
