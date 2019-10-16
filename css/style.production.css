@@ -42,6 +42,7 @@ a:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          text-align: center;
 }
 
 .about_img{
@@ -60,9 +61,10 @@ a:active {
           flex-direction: column;
   width: auto;
   min-width: 250px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.about_text {
+  margin-top: 0px;
 }
 
 .bio-facts {
@@ -512,7 +514,6 @@ th {
   .about_grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    max-width: 350px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -544,6 +545,11 @@ th {
 
   h2 {
     font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin: 10px;
   }
 
   .main,
@@ -594,7 +600,7 @@ th {
 
   .dropbtn {
     font: 14px 'Inconsolata', monospace;
-    width: 110px;
+    width: 115px;
   }
 
   .dropdown {
@@ -622,7 +628,7 @@ th {
     margin: 0px;
     border-left: 1px solid #35acac;
     border-right: 1px solid #35acac;
-    width: 110px;
+    width: 115px;
   }
 
   .dropdown_list a {
@@ -637,8 +643,8 @@ th {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 16px;
+  h2 {
+    font-size: 18px;
   }
 
   img.page-header__item {

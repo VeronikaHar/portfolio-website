@@ -48,6 +48,7 @@ a:active {
 .about_item {
   padding: 10px;
   align-items: center;
+  text-align: center;
 }
 
 .about_img{
@@ -61,7 +62,10 @@ a:active {
   flex-direction: column;
   width: auto;
   min-width: 250px;
-  justify-content: space-between;
+}
+
+.about_text {
+  margin-top: 0px;
 }
 
 .bio-facts {
@@ -400,7 +404,6 @@ th {
 @media all and (max-width: 630px) {
   .about_grid {
     grid-template-columns: 1fr;
-    max-width: 350px;
     align-items: center;
     margin: auto;
   }
@@ -429,6 +432,11 @@ th {
 
   h2 {
     font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin: 10px;
   }
 
   .main,
@@ -469,7 +477,7 @@ th {
 
   .dropbtn {
     font: 14px 'Inconsolata', monospace;
-    width: 110px;
+    width: 115px;
   }
 
   .dropdown {
@@ -490,7 +498,7 @@ th {
     margin: 0px;
     border-left: 1px solid var(--primary-color);
     border-right: 1px solid var(--primary-color);
-    width: 110px;
+    width: 115px;
   }
 
   .dropdown_list a {
@@ -505,8 +513,8 @@ th {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 16px;
+  h2 {
+    font-size: 18px;
   }
 
   img.page-header__item {
