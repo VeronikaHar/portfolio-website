@@ -34,7 +34,6 @@ a:active {
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
 }
 
 .about_item {
@@ -60,7 +59,7 @@ a:active {
       -ms-flex-direction: column;
           flex-direction: column;
   width: auto;
-  min-width: 250px;
+  min-width: 245px;
 }
 
 .about_text {
@@ -68,7 +67,7 @@ a:active {
 }
 
 .bio-facts {
-  list-style-type: circle;
+  list-style-type: decimal;
 }
 
 html {
@@ -476,7 +475,7 @@ th {
           animation: letter-grow 4s 5s 2;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 970px) {
   .about_grid {
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;

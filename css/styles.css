@@ -42,7 +42,6 @@ a:active {
 .about_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
 }
 
 .about_item {
@@ -61,7 +60,18 @@ a:active {
   display: flex;
   flex-direction: column;
   width: auto;
-  min-width: 250px;
+  min-width: 245px;
+}
+
+.about_skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about_skills img{
+  width: 80px;
+  margin: 5px;
 }
 
 .about_text {
@@ -69,7 +79,7 @@ a:active {
 }
 
 .bio-facts {
-  list-style-type: circle;
+  list-style-type: decimal;
 }
 
 html {
@@ -369,7 +379,7 @@ th {
   animation: letter-grow 4s 5s 2;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 970px) {
   .about_grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
