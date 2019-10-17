@@ -276,10 +276,10 @@ h3 {
 }
 
 img.page-header__item {
-  max-width: 110px;
-  max-height: 50px;
-  margin-left: 5%;
-  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
 .profile {
@@ -397,7 +397,7 @@ th {
 
   img.page-header__item {
     max-width: 100px;
-    margin-left: 2%;
+    margin-left: 5px;
   }
 
   .main,
@@ -541,7 +541,6 @@ th {
 
   img.page-header__item {
     max-width: 90px;
-    margin-left: 2%;
   }
 
   img.profile__portrait {
