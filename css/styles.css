@@ -41,7 +41,7 @@ a:active {
 
 .about_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about_item {
@@ -67,6 +67,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0;
 }
 
 .about_skills img{
@@ -380,12 +381,7 @@ th {
 }
 
 @media all and (max-width: 970px) {
-  .about_grid {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .grid {
+.grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: var(--gap);
   }
