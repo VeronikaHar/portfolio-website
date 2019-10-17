@@ -71,6 +71,7 @@ a:active {
 
 .about_skills img{
   width: 80px;
+  height: 87px;
   margin: 5px;
 }
 
@@ -147,7 +148,7 @@ div {
 
 .grid__item {
   background-color: var(--white);
-  padding: 10px;
+  padding: 2%;
   border-radius: 3px;
   box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
 }
@@ -163,12 +164,12 @@ div {
   flex-direction: column;
   width: auto;
   background-color: var(--white);
-  min-width: 250px;
+  min-width: 270px;
   justify-content: space-between;
 }
 
 div.layout {
-  margin: 5px;
+  margin: 2px;
 }
 
 .grid__item footer {
@@ -179,7 +180,6 @@ div.layout {
 
 .grid_img {
   max-width: 100%;
-  margin: auto;
 }
 
 h1 {
@@ -236,7 +236,7 @@ h3 {
 
 .main,
 #main {
-  width: 80%;
+  width: 85%;
   padding-bottom: 120px;
   padding-top: 80px;
   padding-left: 7px;
@@ -485,9 +485,20 @@ th {
     width: 90px;
   }
 
+  .about_skills img{
+    width: 60px;
+    height: 65px;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+
   .dropbtn {
-    font: 14px 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
     width: 115px;
+    height: 40px;
+    padding: 5px;
   }
 
   .dropdown {
@@ -495,7 +506,8 @@ th {
     float: right;
   }
 
-  .dropdown:hover .dropdown_list {
+  .dropdown:hover .dropdown_list,
+  .dropdown:focus .dropdown_list {
     display: flex;
     flex-direction: column;
   }
@@ -516,7 +528,7 @@ th {
     width: 100%;
     text-align: center;
     padding: 8px;
-    font: 14px 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
   }
 
   h1 {
