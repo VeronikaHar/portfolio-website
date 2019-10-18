@@ -246,8 +246,9 @@ h3 {
 }
 
 .navigation-list {
-  list-style-type: none;
-  width: 100%;
+  max-width: 600px;
+  margin-right: 20px;
+  margin-left: auto;
 }
 
 .navigation-list__item {
@@ -401,6 +402,10 @@ th {
     width: 95%;
   }
 
+  .navigation-list {
+    margin-right: 0;
+  }
+
  .navigation-list__item {
     font-size: 18px;
     width: 25%;
@@ -450,6 +455,11 @@ th {
     width: 98%;
   }
   
+  .navigation-list {
+    width: 100%;
+    margin-left: 0;
+  }
+   
   .navigation-list__item {
     margin-bottom: 5px;
     font-size: 16px;
