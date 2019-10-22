@@ -244,18 +244,12 @@ div.layout {
 
 .grid_img {
   max-width: 100%;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 
 .layout:hover .grid_img {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
   max-width: 91.3%;
   padding: 10%;
 }
@@ -471,7 +465,7 @@ h3 {
 img.page-header__item {
   width: 100px;
   height: 50px;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: 6px;
 }
 
@@ -610,7 +604,7 @@ th {
 
   img.page-header__item {
     max-width: 100px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
   .main,
