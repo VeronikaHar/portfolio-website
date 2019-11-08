@@ -12,7 +12,7 @@ a {
 }
 
 .contact a {
-    color: #5F6363;
+    color: #3AFFEB;
     font-weight: 600;
 }
 
@@ -432,9 +432,9 @@ h3 {
   float: right;
 }
 
-.navigation-list__item--active {
+.navigation-list__item:hover,
+.navigation-list__item:focus {
   color: #B84B9B;
-  font-family: 'Inconsolata', monospace;
 }
 
 .overlay {
@@ -998,11 +998,11 @@ textarea {
   }
 
   .dropdown_list a:hover {
-    color: #35acac
+    color: #B84B9B;
   }
 
   .dropdown_list a:focus {
-    color: #35acac
+    color: #B84B9B;
   }
 
   h1 {
