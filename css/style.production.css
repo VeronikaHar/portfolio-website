@@ -615,29 +615,26 @@ img.page-header__item {
 }
 
 .profile__text h1 {
-    -webkit-animation: slide-down 1s;
-            animation: slide-down 1s;
+    overflow: hidden; 
+    -webkit-animation: type-hello 1s steps(6,end) 1; 
+            animation: type-hello 1s steps(6,end) 1;
 }
 
-@-webkit-keyframes slide-down {
+@-webkit-keyframes type-hello{
     from {
-        -webkit-transform: translateY(-70vh);
-                transform: translateY(-70vh);
+        width: 0px;
     }
     to {
-        -webkit-transform: translateY(0vh);
-                transform: translateY(0vh);
+        width: 107px;
     }
 }
 
-@keyframes slide-down {
+@keyframes type-hello{
     from {
-        -webkit-transform: translateY(-70vh);
-                transform: translateY(-70vh);
+        width: 0px;
     }
     to {
-        -webkit-transform: translateY(0vh);
-                transform: translateY(0vh);
+        width: 107px;
     }
 }
 
@@ -927,6 +924,7 @@ textarea {
 
   .profile__text h1 {
     font-size: 24px;
+    margin: 10px auto;
   }
 
   .profile__text .button{
