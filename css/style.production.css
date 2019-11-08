@@ -576,8 +576,8 @@ img.page-header__item {
                 transform: translateX(-100vw);
     }
     50% {
-        -webkit-transform: translateX(-70vw) rotate(0deg);
-                transform: translateX(-70vw) rotate(0deg);
+        -webkit-transform: translateX(-100vw) rotate(0deg);
+                transform: translateX(-100vw) rotate(0deg);
     }
     100% {
         -webkit-transform: translateX(0vw) rotate(360deg);
@@ -591,8 +591,8 @@ img.page-header__item {
                 transform: translateX(-100vw);
     }
     50% {
-        -webkit-transform: translateX(-70vw) rotate(0deg);
-                transform: translateX(-70vw) rotate(0deg);
+        -webkit-transform: translateX(-100vw) rotate(0deg);
+                transform: translateX(-100vw) rotate(0deg);
     }
     100% {
         -webkit-transform: translateX(0vw) rotate(360deg);
@@ -652,8 +652,8 @@ img.page-header__item {
                 transform: translateX(100vw);
     }
     50% {
-        -webkit-transform: translateX(90vw);
-                transform: translateX(90vw);
+        -webkit-transform: translateX(100vw);
+                transform: translateX(100vw);
     }
     100% {
         -webkit-transform: translateX(0vw);
@@ -667,8 +667,8 @@ img.page-header__item {
                 transform: translateX(100vw);
     }
     50% {
-        -webkit-transform: translateX(90vw);
-                transform: translateX(90vw);
+        -webkit-transform: translateX(100vw);
+                transform: translateX(100vw);
     }
     100% {
         -webkit-transform: translateX(0vw);
@@ -958,7 +958,7 @@ textarea {
     width: 100px;
     height: 32px;
     padding: 5px;
-    margin-right: 10px;
+    margin-right: 7px;
   }
 
   .dropdown {
