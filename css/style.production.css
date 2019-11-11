@@ -11,7 +11,7 @@ a {
   transition: color .5s;
 }
 
-.contact a {
+#contact a {
     color: #3AFFEB;
     font-weight: 600;
 }
@@ -24,14 +24,11 @@ a:focus {
   color: #35acac;
 }
 
-a:active {
-  /* selected link */
-  color: #35acac;
-  text-shadow: none;
+#about.main {
+  background-color: #fff;
 }
 
 .about {
-  background-color: #fff;
   width: 100%;
   padding: 2%;
   margin: 0;
@@ -106,6 +103,7 @@ body {
   position: relative;
   min-height: 100%;
   min-width: 100%;
+  background-color: #f6f8f8;
 }
 
 button {
@@ -186,12 +184,12 @@ button:active {
   background-color: #35acac;
 }
 
-.contact .button {
+#contact .button {
     background-color: transparent;
 }
 
-.contact .button:hover,
-.contact .button:focus {
+#contact .button:hover,
+#contact .button:focus {
     background-color: transparent;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -399,22 +397,18 @@ h3 {
           animation: 5s pointer-move infinite alternate;
 }
 
-.main,
-#main {
+.main {
   min-height: 92vh;
-  width: 85%;
+  width: 100%;
   min-width: 870px;
-  padding: 8px;
-  padding-top: 10px;
-  margin: auto;
-  margin-top: 10px;
+  padding: 45px 8%;
+  margin: 20px auto;
 }
   
-#main.contact {
+#contact.main {
   text-align: center;
   background-color: #B84B9B;
   color: #fff;
-  width: 100%;
 }
 
 .navigation-list {
@@ -432,7 +426,10 @@ h3 {
   float: right;
 }
 
-.navigation-list__item:hover,
+.navigation-list__item:hover {
+  color: #B84B9B;
+}
+
 .navigation-list__item:focus {
   color: #B84B9B;
 }
@@ -530,20 +527,19 @@ img.page-header__item {
   margin-top: 6px;
 }
 
-#main.profile {
- background-color: #fff;
-  margin: auto;
+#profile.main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 900px;
+  max-width: 1000px;  
+  margin-top: 0px;
 }
 
 .profile__footer {
   clear: both;
   text-align: center;
   bottom: 0;
-  margin-left: -8px;
+  margin-left: -8%;
   position: absolute;
   width: 101%;
   height: 100px;
@@ -817,9 +813,8 @@ textarea {
     margin-left: 10px;
   }
 
-  .main,
-  #main {
-    width: 95%;
+  .main{
+    padding: 45px 3%;
     min-width: 290px;
   }
 
@@ -830,6 +825,10 @@ textarea {
  .navigation-list__item {
     font-size: 18px;
     width: 25%;
+  }
+
+  .profile__footer {
+    margin-left: -3%;
   }
 }
 
@@ -872,12 +871,8 @@ textarea {
     margin-left: 5px;
   }
 
-  .main,
-  #main {
-    width: 100%;
-    margin-top: 20px;
-    padding: 5px;
-    padding-top: 15px;
+  .main{
+    padding: 50px 1%;
   }
   
   .navigation-list {
@@ -890,7 +885,7 @@ textarea {
     font-size: 16px;
   }
 
-  .profile {
+  #profile {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -898,6 +893,10 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .profile__footer {
+    margin-left: -1%;
   }
 
   .page-header {
@@ -998,11 +997,11 @@ textarea {
   }
 
   .dropdown_list a:hover {
-    color: #B84B9B;
+    color: #B84B9B
   }
 
   .dropdown_list a:focus {
-    color: #B84B9B;
+    color: #B84B9B
   }
 
   h1 {
@@ -1017,12 +1016,6 @@ textarea {
     max-width: 90px;
   }
 
-  .main,
-  #main {
-    margin-top: 0px;
-    padding-top: 10px;
-  }
-
   .navigation-list__item {
     display: none;
   }
@@ -1032,7 +1025,7 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 42px;
+    height: 45px;
     width: 100vw;
   }  
 }
