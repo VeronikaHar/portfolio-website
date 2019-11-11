@@ -398,11 +398,11 @@ h3 {
 }
 
 .main {
-  min-height: 92vh;
+  min-height: 100vh;
   width: 100%;
   min-width: 870px;
-  padding: 45px 8%;
-  margin: 20px auto;
+  padding: 55px 8%;
+  margin: 0px auto;
 }
   
 #contact.main {
@@ -542,7 +542,7 @@ img.page-header__item {
   margin-left: -8%;
   position: absolute;
   width: 101%;
-  height: 100px;
+  height: 110px;
   background-color: #35acac;
   color: #000;
   border-top: 2px solid #fff;
@@ -758,6 +758,7 @@ svg {
   font-size: 6px;
   color: #fff;
   margin-top: -10px;
+  margin-bottom: 60px;
   text-align: center;  
 }
 
@@ -814,7 +815,7 @@ textarea {
   }
 
   .main{
-    padding: 45px 3%;
+    padding: 55px 3%;
     min-width: 290px;
   }
 
@@ -897,6 +898,7 @@ textarea {
 
   .profile__footer {
     margin-left: -1%;
+    height: 90px;
   }
 
   .page-header {
