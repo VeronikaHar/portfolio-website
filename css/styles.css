@@ -32,6 +32,21 @@ a:focus {
   color: var(--primary-color-lighter);
 }
 
+a .spanLeft,
+a .spanRight{
+  font-size: 24px;
+  color: var(--secondary-color);
+  opacity: 0;
+  transition: .6s;  
+}
+
+a:hover .spanLeft,
+a:hover .spanRight,
+a:focus .spanLeft,
+a:focus .spanRight {
+  opacity:1;
+}
+
 #about.main {
   background-color: #fff;
 }
@@ -204,6 +219,7 @@ div.layout {
 
 .overlay p span {
   background-color: #B84B9B;
+  color: #fff;
   margin: 5px;
 }
 
@@ -477,23 +493,18 @@ img.page-header__item {
 
 span {
   font-family: 'Inconsolata', monospace;
-  background-color: #000;
-  color: var(--white);
-  margin: 3px;
   padding: 3px;
 }
 
-span.wrap {
-    background-color: transparent;  
-    margin: 0px;
+span.web {
+  background-color: #000;
+  color: var(--white);
+  margin: 3px; 
 }
 
 span.animation {
     border-right: solid 3px var(--secondary-color);
-    background-color: transparent;  
     font-family: 'Assistant', sans-serif;  
-    color: #000;
-    margin: 0px;
     padding: 0px;
     animation: animated-cursor 600ms infinite;
 }

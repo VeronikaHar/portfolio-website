@@ -24,6 +24,23 @@ a:focus {
   color: #35acac;
 }
 
+a .spanLeft,
+a .spanRight{
+  font-size: 24px;
+  color: #b84b9b;
+  opacity: 0;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;  
+}
+
+a:hover .spanLeft,
+a:hover .spanRight,
+a:focus .spanLeft,
+a:focus .spanRight {
+  opacity:1;
+}
+
 #about.main {
   background-color: #fff;
 }
@@ -272,6 +289,7 @@ div.layout {
 
 .overlay p span {
   background-color: #B84B9B;
+  color: #fff;
   margin: 5px;
 }
 
@@ -706,23 +724,18 @@ img.page-header__item {
 
 span {
   font-family: 'Inconsolata', monospace;
-  background-color: #000;
-  color: #fff;
-  margin: 3px;
   padding: 3px;
 }
 
-span.wrap {
-    background-color: transparent;  
-    margin: 0px;
+span.web {
+  background-color: #000;
+  color: #fff;
+  margin: 3px; 
 }
 
 span.animation {
     border-right: solid 3px #B84B9B;
-    background-color: transparent;  
     font-family: 'Assistant', sans-serif;  
-    color: #000;
-    margin: 0px;
     padding: 0px;
     -webkit-animation: animated-cursor 600ms infinite;
             animation: animated-cursor 600ms infinite;
@@ -1014,7 +1027,7 @@ textarea {
     font-size: 18px;
   }
 
-  img.page-header__item {
+   img.page-header__item {
     width: 70px;
     height: 35px;
     margin-left: 7px;
