@@ -646,7 +646,7 @@ textarea {
   }
 
   .navigation-list__item {
-    margin-top: -5px;
+    margin-bottom: 5px;
     font-size: 16px;
   }
 
@@ -663,6 +663,10 @@ textarea {
   .page-header {
     flex-direction: column;
     align-items: center;
+  }
+
+  .page-header a {
+    height: 30px;
   }
 
   .profile__portrait {
@@ -759,7 +763,6 @@ textarea {
     width: 70px;
     height: 35px;
     margin-left: 7px;
-    margin-top: 7px;
   }
 
   .navigation-list__item {
