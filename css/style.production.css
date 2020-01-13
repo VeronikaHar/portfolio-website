@@ -562,10 +562,9 @@ img.page-header__item {
   clear: both;
   text-align: center;
   bottom: 0;
-  margin-left: -8%;
   position: absolute;
-  width: 101%;
-  height: 110px;
+  width: 100%;
+  padding-bottom: 10px;
   background-color: #35acac;
   color: #000;
   border-top: 2px solid #fff;
@@ -845,10 +844,6 @@ textarea {
     font-size: 18px;
     width: 25%;
   }
-
-  .profile__footer {
-    margin-left: -3%;
-  }
 }
 
 @media all and (max-width: 630px) {
@@ -908,11 +903,6 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-
-  .profile__footer {
-    margin-left: -1%;
-    height: 90px;
   }
 
   .page-header {
