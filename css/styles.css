@@ -603,10 +603,6 @@ textarea {
 }
 
 @media all and (max-width: 630px) {
-  body {
-    font-size: 16px;
-  }
-
   div {
     margin: var(--gap);
   }
@@ -651,7 +647,7 @@ textarea {
 
   .navigation-list__item {
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #profile {
@@ -682,7 +678,7 @@ textarea {
   
   .profile__text {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .profile__text h1 {
@@ -691,7 +687,7 @@ textarea {
   }
 
   .profile__text .button{
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -745,7 +741,6 @@ textarea {
     border-bottom: 1px solid var(--primary-color-lighter);
     width: 100%;
     text-align: center;
-    padding: 4px;
     font-family: 'Inconsolata', monospace;
     color: var(--light-grey-text);
   }
