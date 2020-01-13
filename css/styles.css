@@ -168,6 +168,10 @@ div {
   display:none;
 }
 
+footer .button {
+  margin: auto 2%;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -626,7 +630,7 @@ textarea {
   }
   
   h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
   }
 
@@ -678,7 +682,7 @@ textarea {
   
   .profile__text {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .profile__text h1 {
