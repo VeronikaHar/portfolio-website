@@ -648,7 +648,8 @@ textarea {
   }
 
   .navigation-list__item {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    margin-top: -5px;
   }
 
   #profile {
@@ -662,7 +663,7 @@ textarea {
   }
 
   .page-header a {
-    height: 30px;
+    height: 28px;
   }
 
   .profile__portrait {
