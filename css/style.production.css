@@ -24,10 +24,18 @@ a:focus {
   color: #35acac;
 }
 
-a .spanLeft,
+a .spanLeft{
+  font-size: 24px;
+  color: #B84B9B;
+  opacity: 0;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;  
+}
+
 a .spanRight{
   font-size: 24px;
-  color: #b84b9b;
+  color: #B84B9B;
   opacity: 0;
   -webkit-transition: .6s;
   -o-transition: .6s;
@@ -227,7 +235,6 @@ div {
 footer .button {
   margin: auto 2%;
 }
-
 
 .grid {
   display: -ms-grid;
@@ -447,14 +454,19 @@ h3 {
   font-size: 20px;
   color: #268187;
   float: right;
+  -webkit-transition: font-size .5s;
+  -o-transition: font-size .5s;
+  transition: font-size .5s;
 }
 
 .navigation-list__item:hover {
   color: #B84B9B;
+  font-size: 22px;
 }
 
 .navigation-list__item:focus {
   color: #B84B9B;
+  font-size: 22px;
 }
 
 .overlay {
@@ -844,6 +856,11 @@ textarea {
     font-size: 18px;
     width: 25%;
   }
+
+  .navigation-list__item:hover,
+  .navigation-list__item:focus {
+    font-size: 20px;
+  }
 }
 
 @media all and (max-width: 630px) {
@@ -892,7 +909,6 @@ textarea {
 
   .navigation-list__item {
     margin-bottom: 5px;
-    font-size: 18px;
   }
 
   #profile {

@@ -327,11 +327,13 @@ h3 {
   font-size: 20px;
   color: var(--primary-color);
   float: right;
+  transition: font-size .5s;
 }
 
 .navigation-list__item:hover,
 .navigation-list__item:focus {
   color: var(--secondary-color);
+  font-size: 22px;
 }
 
 .overlay {
@@ -595,6 +597,11 @@ textarea {
     font-size: 18px;
     width: 25%;
   }
+
+  .navigation-list__item:hover,
+  .navigation-list__item:focus {
+    font-size: 20px;
+  }
 }
 
 @media all and (max-width: 630px) {
@@ -642,7 +649,6 @@ textarea {
 
   .navigation-list__item {
     margin-bottom: 5px;
-    font-size: 18px;
   }
 
   #profile {
