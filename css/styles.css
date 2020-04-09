@@ -19,7 +19,7 @@
 a {
   text-decoration: none;
   color: var(--secondary-color);
-  transition: color .5s;
+  transition: .3s ease-in-out;
 }
 
 #contact a {
@@ -37,7 +37,7 @@ a .spanRight{
   font-size: 24px;
   color: var(--secondary-color);
   opacity: 0;
-  transition: .6s;  
+  transition: .3s ease-in-out;  
 }
 
 a:hover .spanLeft,
@@ -127,7 +127,7 @@ button,
   color: var(--white);
   text-decoration: none;
   padding: var(--gap);
-  transition: box-shadow .5s, background-color .5s;
+  transition: .3s ease-in-out;
 }
 
 button:hover,
@@ -327,7 +327,7 @@ h3 {
   font-size: 20px;
   color: var(--primary-color);
   float: right;
-  transition: font-size .5s;
+  transition: .3s ease-in-out;
 }
 
 .navigation-list__item:hover,
