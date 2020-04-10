@@ -114,7 +114,8 @@ a:focus .spanRight {
 }
 
 .bio-facts {
-  list-style-type: decimal;
+  list-style-type: decimal;  
+  padding-inline-start: 20px;
 }
 
 html {
@@ -461,7 +462,7 @@ h3 {
   min-height: 100vh;
   width: 100%;
   min-width: 870px;
-  padding: 55px 8%;
+  padding: 55px 7%;
   margin: 0px auto;
 }
   
@@ -884,6 +885,10 @@ textarea {
     min-width: 290px;
   }
 
+  #profile.main {
+    max-width: 790px;
+  }
+
   .navigation-list {
     margin-right: 0;
   }
@@ -1103,5 +1108,9 @@ textarea {
 
   .page-header a {
     height: 35px;
+  }
+
+  .profile__text p {
+    margin: 10px 3px;
   }
 }
