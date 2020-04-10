@@ -334,6 +334,7 @@ h3 {
   text-align: center;
   background-color: #B84B9B;
   color: #fff;
+  min-height: 95vh;
 }
 
 .navigation-list {
@@ -562,6 +563,10 @@ span.animation {
 
 svg {
   max-height: 300px;
+}
+
+#contact .svg {
+  padding-bottom: 25px;
 }
 
 .svg-source {
