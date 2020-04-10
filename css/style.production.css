@@ -114,8 +114,9 @@ a:focus .spanRight {
 }
 
 .bio-facts {
-  list-style-type: decimal;  
-  padding-inline-start: 20px;
+  list-style-type: decimal;
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
 }
 
 html {
@@ -261,11 +262,17 @@ footer .button {
   }
 
   50% {
-    border-color: #35ACAC;
+    border-color: #35acac;
   }
 
-  0%,
-  75%,
+  0% {
+    border-color: #B84B9B;
+  }
+
+  75% {
+    border-color: #B84B9B;
+  }
+
   100% {
     border-color: #B84B9B;
   }
@@ -277,11 +284,17 @@ footer .button {
   }
 
   50% {
-    border-color: #35ACAC;
+    border-color: #35acac;
   }
 
-  0%,
-  75%,
+  0% {
+    border-color: #B84B9B;
+  }
+
+  75% {
+    border-color: #B84B9B;
+  }
+
   100% {
     border-color: #B84B9B;
   }
@@ -350,21 +363,29 @@ h3 {
 
 @-webkit-keyframes letter-grow {
   0% {
-    opacity: 0;
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
 @keyframes letter-grow {
   0% {
-    opacity: 0;
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
@@ -774,6 +795,15 @@ span {
   padding: 3px;
 }
 
+span.hint {
+  display: none;
+  font-size: 14px;
+  margin-top: -10px;
+  line-height: 1;
+  padding: 3px 0;
+  color: #B84B9B;
+}
+
 span.web {
   background-color: #000;
   color: #fff;
@@ -836,23 +866,23 @@ textarea {
 }
 
 .w1 {
-  -webkit-animation: letter-grow 1s 5s 2;
-          animation: letter-grow 1s 5s 2;
+  -webkit-animation: letter-grow 1s 5s infinite;
+          animation: letter-grow 1s 5s infinite;
 }
 
 .w2 {
-  -webkit-animation: letter-grow 2s 5s 2;
-          animation: letter-grow 2s 5s 2;
+  -webkit-animation: letter-grow 2s 5s infinite;
+          animation: letter-grow 2s 5s infinite;
 }
 
 .w3 {
-  -webkit-animation: letter-grow 3s 5s 2;
-          animation: letter-grow 3s 5s 2;
+  -webkit-animation: letter-grow 3s 5s infinite;
+          animation: letter-grow 3s 5s infinite;
 }
 
 .dot {
-  -webkit-animation: letter-grow 4s 5s 2;
-          animation: letter-grow 4s 5s 2;
+  -webkit-animation: letter-grow 4s 5s infinite;
+          animation: letter-grow 4s 5s infinite;
 }
 
 @media all and (max-width: 970px) {
@@ -884,7 +914,7 @@ textarea {
     padding: 55px 3%;
     min-width: 290px;
   }
-
+  
   #profile.main {
     max-width: 790px;
   }
@@ -1003,6 +1033,10 @@ textarea {
 
   .profile__text .button{
     font-size: 18px;
+  }
+
+    span.hint {
+      display: block;
   }
 }
 

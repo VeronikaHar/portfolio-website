@@ -259,11 +259,15 @@ h3 {
 
 @keyframes letter-grow {
   0% {
-    opacity: 0;
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
   }
 
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
@@ -519,6 +523,15 @@ span {
   padding: 3px;
 }
 
+span.hint {
+  display: none;
+  font-size: 14px;
+  margin-top: -10px;
+  line-height: 1;
+  padding: 3px 0;
+  color: var(--secondary-color);
+}
+
 span.web,
 .layout span {
   background-color: #000;
@@ -566,19 +579,19 @@ textarea {
 }
 
 .w1 {
-  animation: letter-grow 1s 5s 2;
+  animation: letter-grow 1s 5s infinite;
 }
 
 .w2 {
-  animation: letter-grow 2s 5s 2;
+  animation: letter-grow 2s 5s infinite;
 }
 
 .w3 {
-  animation: letter-grow 3s 5s 2;
+  animation: letter-grow 3s 5s infinite;
 }
 
 .dot {
-  animation: letter-grow 4s 5s 2;
+  animation: letter-grow 4s 5s infinite;
 }
 
 @media all and (max-width: 970px) {
@@ -712,6 +725,10 @@ textarea {
 
   .profile__text .button{
     font-size: 18px;
+  }
+
+    span.hint {
+      display: block;
   }
 }
 
