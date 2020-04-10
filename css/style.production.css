@@ -491,7 +491,7 @@ h3 {
   text-align: center;
   background-color: #B84B9B;
   color: #fff;
-  min-height: 95vh;
+  min-height: 93vh;
 }
 
 .navigation-list {
@@ -844,7 +844,8 @@ span.animation {
 }
 
 .SM_icon {
-  height: 30px;
+  height: 35px;
+  margin: -3px 3px;
 }
 
 svg {
@@ -852,7 +853,8 @@ svg {
 }
 
 #contact .svg {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
+  margin-top: -25px;
 }
 
 .svg-source {
