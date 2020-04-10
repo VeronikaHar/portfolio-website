@@ -6,7 +6,7 @@
   --white: #fff;
   --gap: 10px;
   --font-weight: 700;
-  --font-size-basic: 18px;
+  --font-size-basic: 20px;
   --font-size-h: 24px;
   --text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   --heading-font: 'Space Mono', monospace;
@@ -187,6 +187,23 @@ footer .button {
 .grid__item:last-child {
   border: 3px solid var(--secondary-color);
   text-align: center;
+  animation: 7s border-color infinite ease-in-out;
+}
+
+@keyframes border-color {
+  25% {
+    border-color: #3AFFEB;
+  }
+
+  50% {
+    border-color: var(--primary-color-lighter);
+  }
+
+  0%,
+  75%,
+  100% {
+    border-color: var(--secondary-color);
+  }
 }
 
 /* Grid fallback */
@@ -324,7 +341,7 @@ h3 {
   margin: 0px;
   width: 20%;
   text-align: center;
-  font-size: 20px;
+  font-size: var(--font-size-basic);
   color: var(--primary-color);
   float: right;
   transition: .3s ease-in-out;
@@ -475,7 +492,7 @@ img.page-header__item {
 }
 
 .profile__text .button {
-    font-size: 20px;
+    font-size: var(--font-size-basic);
     animation: button-fadein 3s;
 }
 
@@ -501,7 +518,8 @@ span {
   padding: 3px;
 }
 
-span.web {
+span.web,
+.layout span {
   background-color: #000;
   color: var(--white);
   margin: 3px; 
@@ -600,11 +618,15 @@ textarea {
 
   .navigation-list__item:hover,
   .navigation-list__item:focus {
-    font-size: 20px;
+    font-size: var(--font-size-basic);
   }
 }
 
 @media all and (max-width: 630px) {
+  body {
+    font-size: 18px;
+  }
+
   div {
     margin: var(--gap);
   }
@@ -624,7 +646,7 @@ textarea {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: var(--font-size-basic);
   }
   
   h3 {
@@ -667,15 +689,15 @@ textarea {
   }
 
   .profile__portrait {
-    margin: 0px;
-    margin-top: 10vh;
+    margin: 5vh;
+    margin-bottom: 2vh;
     max-width: 180px;
     max-height: 180px;
   }
   
   .profile__text {
     text-align: center;
-    font-size: 20px;
+    font-size: var(--font-size-basic);
   }
 
   .profile__text h1 {
@@ -709,7 +731,6 @@ textarea {
     width: 100px;
     height: 35px;
     padding: 5px;
-    margin-right: 7px;
   }
 
   .dropdown {
@@ -748,7 +769,7 @@ textarea {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: var(--font-size-basic);
   }
 
   h2 {
@@ -767,7 +788,13 @@ textarea {
 
   .page-header {
     flex-direction: row;
-    height: 45px;
+    height: 55px;
+    padding: 8px;
+    padding-bottom: 3px;
     width: 100vw;
   }  
+
+  .page-header a {
+    height: 35px;
+  }
 }

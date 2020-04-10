@@ -123,7 +123,7 @@ html {
 }
 
 body {
-  font: 300 18px 'Assistant', sans-serif;
+  font: 300 20px 'Assistant', sans-serif;
   line-height: 1.6;
   position: relative;
   min-height: 100%;
@@ -250,6 +250,40 @@ footer .button {
 .grid__item:last-child {
   border: 3px solid #B84B9B;
   text-align: center;
+  -webkit-animation: 7s border-color infinite ease-in-out;
+          animation: 7s border-color infinite ease-in-out;
+}
+
+@-webkit-keyframes border-color {
+  25% {
+    border-color: #3AFFEB;
+  }
+
+  50% {
+    border-color: #35ACAC;
+  }
+
+  0%,
+  75%,
+  100% {
+    border-color: #B84B9B;
+  }
+}
+
+@keyframes border-color {
+  25% {
+    border-color: #3AFFEB;
+  }
+
+  50% {
+    border-color: #35ACAC;
+  }
+
+  0%,
+  75%,
+  100% {
+    border-color: #B84B9B;
+  }
 }
 
 /* Grid fallback */
@@ -310,7 +344,7 @@ h2 {
 }
 
 h3 {
-  font: 700 18px 'Space Mono', monospace;
+  font: 700 20px 'Space Mono', monospace;
 }
 
 @-webkit-keyframes letter-grow {
@@ -745,6 +779,12 @@ span.web {
   margin: 3px; 
 }
 
+.layout span {
+  background-color: #000;
+  color: #fff;
+  margin: 3px; 
+}
+
 span.animation {
     border-right: solid 3px #B84B9B;
     font-family: 'Assistant', sans-serif;  
@@ -853,13 +893,20 @@ textarea {
     width: 25%;
   }
 
-  .navigation-list__item:hover,
+  .navigation-list__item:hover {
+    font-size: 20px;
+  }
+
   .navigation-list__item:focus {
     font-size: 20px;
   }
 }
 
 @media all and (max-width: 630px) {
+  body {
+    font-size: 18px;
+  }
+
   div {
     margin: 10px;
   }
@@ -933,8 +980,8 @@ textarea {
   }
 
   .profile__portrait {
-    margin: 0px;
-    margin-top: 10vh;
+    margin: 5vh;
+    margin-bottom: 2vh;
     max-width: 180px;
     max-height: 180px;
   }
@@ -978,7 +1025,6 @@ textarea {
     width: 100px;
     height: 35px;
     padding: 5px;
-    margin-right: 7px;
   }
 
   .dropdown {
@@ -1049,7 +1095,13 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 45px;
+    height: 55px;
+    padding: 8px;
+    padding-bottom: 3px;
     width: 100vw;
   }  
+
+  .page-header a {
+    height: 35px;
+  }
 }
