@@ -136,6 +136,7 @@ body {
 button {
   /* overwrites browser defaults and resets the border */
   border: none;
+  border-radius: 3px;
   font-family: inherit;
 
   /* styles the button */
@@ -151,6 +152,7 @@ button {
 .button {
   /* overwrites browser defaults and resets the border */
   border: none;
+  border-radius: 3px;
   font-family: inherit;
 
   /* styles the button */
@@ -247,6 +249,7 @@ footer .button {
   padding: 2%;
   -webkit-box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
 }
 
 .grid__item:last-child {
