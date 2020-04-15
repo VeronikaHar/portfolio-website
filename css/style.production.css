@@ -6,9 +6,9 @@
 a {
   text-decoration: none;
   color: #B84B9B;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 #contact a {
@@ -28,18 +28,18 @@ a .spanLeft{
   font-size: 24px;
   color: #B84B9B;
   opacity: 0;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;  
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;  
 }
 
 a .spanRight{
   font-size: 24px;
   color: #B84B9B;
   opacity: 0;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;  
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;  
 }
 
 a:hover .spanLeft,
@@ -144,9 +144,9 @@ button {
   color: #fff;
   text-decoration: none;
   padding: 10px;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .button {
@@ -160,40 +160,40 @@ button {
   color: #fff;
   text-decoration: none;
   padding: 10px;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 button:hover {
   cursor: pointer;
   color: #fff;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
+          box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   background-color: #B84B9B;
 }
 
 button:focus {
   cursor: pointer;
   color: #fff;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
+          box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   background-color: #B84B9B;
 }
 
 .button:hover {
   cursor: pointer;
   color: #fff;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
+          box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   background-color: #B84B9B;
 }
 
 .button:focus {
   cursor: pointer;
   color: #fff;
-  -webkit-box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
+          box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   background-color: #B84B9B;
 }
 
@@ -247,8 +247,8 @@ footer .button {
 .grid__item {
   background-color: #fff;
   padding: 2%;
-  -webkit-box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
+          box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   border-radius: 3px;
 }
 
@@ -510,9 +510,9 @@ h3 {
   font-size: 20px;
   color: #268187;
   float: right;
-  -webkit-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .navigation-list__item:hover {

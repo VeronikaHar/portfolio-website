@@ -8,7 +8,6 @@
   --font-weight: 700;
   --font-size-basic: 20px;
   --font-size-h: 24px;
-  --text-shadow: 0.1em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   --heading-font: 'Space Mono', monospace;
 }
 
@@ -19,7 +18,7 @@
 a {
   text-decoration: none;
   color: var(--secondary-color);
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 #contact a {
@@ -37,7 +36,7 @@ a .spanRight{
   font-size: 24px;
   color: var(--secondary-color);
   opacity: 0;
-  transition: .3s ease-in-out;  
+  transition: .2s ease-in-out;  
 }
 
 a:hover .spanLeft,
@@ -129,7 +128,7 @@ button,
   color: var(--white);
   text-decoration: none;
   padding: var(--gap);
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 button:hover,
@@ -138,7 +137,7 @@ button:focus,
 .button:focus {
   cursor: pointer;
   color: var(--white);
-  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   background-color: var(--secondary-color);
 }
 
@@ -183,7 +182,7 @@ footer .button {
 .grid__item {
   background-color: var(--white);
   padding: 2%;
-  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 2px 3px rgba(255,255,255,0.5), 3px 4px 5px #B6B6B6;
   border-radius: 3px;
 }
 
@@ -352,7 +351,7 @@ h3 {
   font-size: var(--font-size-basic);
   color: var(--primary-color);
   float: right;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .navigation-list__item:hover,
