@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
 
@@ -73,28 +74,28 @@
         <h1>About </h1>
         <div class="about">
             <section class="about_grid" alt="my projects' features">
-                <section class="about_item">
+                <section class="about_item" data-aos="fade-up" data-aos-delay="100">
                     <img src="img/responsive.png" class="about_img">
                     <h3>Responsive</h3>
                     <p class="about_text">
                         My layouts look and work great on any screen size.
                     </p>
                 </section>
-                <section class="about_item">
+                <section class="about_item" data-aos="fade-up" data-aos-delay="300">
                     <img src="img/intuitive.png" class="about_img">
                     <h3>Intuitive</h3>
                     <p class="about_text">
                         Easy to understand and navigate user interface (UI/UX).
                     </p>
                 </section>
-                <section class="about_item">
+                <section class="about_item" data-aos="fade-up" data-aos-delay="500">
                     <img src="img/fast.png" class="about_img">
                     <h3>Fast</h3>
                     <p class="about_text">
                         I aim for the shortest loading times for my projects.
                     </p>
                 </section>
-                <section class="about_item">
+                <section class="about_item" data-aos="fade-up" data-aos-delay="700">
                     <img src="img/accessible.PNG" class="about_img">
                     <h3>Accessible</h3>
                     <p class="about_text">
@@ -105,7 +106,7 @@
             </section>
             <br />
             <h2>Web Development Skills</h2>
-            <div class="about_skills">
+            <div class="about_skills" data-aos="fade-left" data-aos-delay="100">
                 <img src="img/react_logo.png" alt="React JS logo">
                 <img src="img/native_logo.png" alt="React Native logo">
                 <img src="img/js_logo.png" alt="Javascript logo">
@@ -149,7 +150,7 @@
     <div class="main" id="work">
         <h1>My portfolio</h1>
         <section class="grid">
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="100">
                 <section>
                     <h2>Million Thank You</h2>
                     <span class="hint">*click the image for the project's tech stack</span>
@@ -170,7 +171,7 @@
                     <a class="button" href="https://github.com/VeronikaHar/millionThankYou-1" target="_blank">Code</a>
                 </footer>
             </section>
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="300">
                 <section>
                     <h2>Cinestock </h2>
                     <span class="hint">*click the image for the project's tech stack</span>
@@ -195,7 +196,7 @@
                     <a class="button" href="https://cinestock.herokuapp.com" target="_blank">App</a>
                 </footer>
             </section>
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="500">
                 <section>
                     <h2>Native Chat App</h2>
                     <span class="hint">*click the image for the project's tech stack</span>
@@ -221,7 +222,7 @@
                     <a class="button" href="https://github.com/VeronikaHar/ChatNow" target="_blank">Code</a>
                 </footer>
             </section>
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="700">
                 <section>
                     <h2>Portfolio Website</h2>
                     <span class="hint">*click the image for the project's tech stack</span>
@@ -247,7 +248,7 @@
                     <a class="button" href="https://github.com/VeronikaHar/portfolio-website" target="_blank">Code</a>
                 </footer>
             </section>
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="900">
                 <section>
                     <h2>Meetup</h2>
                     <span class="hint">*click the image for the project's tech stack</span>
@@ -271,7 +272,7 @@
                     <a class="button" href="https://veronikahar.github.io/meetup/" target="_blank">App</a>
                 </footer>
             </section>
-            <section class="grid__item">
+            <section class="grid__item" data-aos="fade-up" data-aos-delay="1100">
                 <div class="layout">
                     <h2>Your project?</h2>
                     <p>Do you like my work?</p>
@@ -469,6 +470,10 @@
         </a>
     </footer>
     <script src="js/animation.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 700 });
+    </script>
 </body>
 
 </html>
