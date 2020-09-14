@@ -762,6 +762,12 @@ textarea {
     width: 90px;
   }
 
+  .about_skills {
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
   .about_skills img{
     width: 60px;
     height: 65px;
