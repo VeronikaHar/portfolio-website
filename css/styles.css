@@ -198,11 +198,11 @@ footer .button {
   border-radius: 3px;
 }
 
-.grid__item:last-child {
+/* .grid__item:last-child {
   border: 3px solid var(--secondary-color);
   text-align: center;
   animation: 7s border-color infinite ease-in-out;
-}
+} */
 
 @keyframes border-color {
   25% {

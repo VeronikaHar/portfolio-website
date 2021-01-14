@@ -272,12 +272,12 @@ footer .button {
   border-radius: 3px;
 }
 
-.grid__item:last-child {
+/* .grid__item:last-child {
   border: 3px solid #B84B9B;
   text-align: center;
   -webkit-animation: 7s border-color infinite ease-in-out;
           animation: 7s border-color infinite ease-in-out;
-}
+} */
 
 @-webkit-keyframes border-color {
   25% {
